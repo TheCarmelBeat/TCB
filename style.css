@@ -153,3 +153,9 @@ h5{
 .para{
     font-size:1.5rem;
 }
+
+.int{
+    display:block;
+    margin-left: auto;
+    margin-right: auto; 
+}
