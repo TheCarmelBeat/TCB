@@ -1,0 +1,153 @@
+@font-face {
+    font-family:'aqua';
+    src: url(aqua.ttf);
+  }
+  html,body
+  {
+      width: 100%;
+      height: 100%;
+      margin: 0rem;
+      padding: 0rem;
+      overflow-x: hidden; 
+  }
+  html{
+    font-size:62.5%;
+  }
+  @media(max-width:998px){
+    html{
+        font-size:20%;
+    }
+  }
+  @media(max-width:768px){
+    html{
+        font-size:20%;
+    }
+  }
+  
+body{
+    background-color: rgb(228, 220, 230);
+    font-family: 'aqua';
+}
+
+h1{
+    font-family: 'Cormorant SC'; 
+    font-size: 5rem;
+}
+
+/* for banner images*/
+.head-image {
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.li{
+    font-size: 1.4rem;
+    margin-top: -0.2rem;
+    font-family: 'aqua';
+}
+
+/*Centering text*/
+.center{
+    text-align: center;
+    padding-top: 20rem;
+}
+
+/*Link customisation*/
+
+a:link{
+    text-decoration: none;
+    color:black;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: 2rem;
+    transition: 0.5s;
+}
+
+a:active{
+    text-decoration: none;
+}
+
+/*Social Media Icons*/
+
+.fa{
+    padding: 1rem;
+    font-size: 3rem;
+    width: 5rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.5rem 2rem;
+}
+  
+.fa:hover{
+    font-size: 2.5rem;
+    transition:0.4s;
+    background-color: #C4C0CE;
+    color: black;
+}
+  
+.fa-linkedin{
+    background: white;
+    color:black;
+}
+  
+.fa-twitter{
+    background: white;
+    color:black;
+}
+  
+.fa-instagram{
+    background: white;
+    color: black;
+}
+
+.links{
+    font-size:1.4rem;
+}
+
+.links:hover{
+    font-size: 2rem;
+    transition: 0.5s;
+}
+
+.hr{
+    background-color:white;
+    height:0.1rem;
+}
+p{
+    font-size:1.2rem;
+}
+h5{
+    font-size:2rem;
+}
+
+.dropdown-menu {
+    background: linear-gradient(#D9E2E1, rgb(228, 220, 230));
+}
+.image-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: -10px; 
+}
+.image-item {
+    flex: 0 0 calc(50% - 20px); /* Adjust width to control the size of each image */
+    margin: 10px; /* Adjust margin to create spacing between images */
+    box-sizing: border-box;
+  }
+  .image-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  .image{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
