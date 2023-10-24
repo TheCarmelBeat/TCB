@@ -2,6 +2,9 @@
     font-family:'aqua';
     src: url(aqua.ttf);
   }
+  if(navigator.userAgent.includes("Instagram")){
+      window.location.href = "https://mywebsite.com/DummyBytes";
+  }
   html,body
   {
       width: 100%;
