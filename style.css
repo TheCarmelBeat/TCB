@@ -26,6 +26,31 @@
     }
  
   }
+  @media(max-width:320px){
+    html{
+        font-size:20%;
+    }
+ 
+  }
+  @media(max-width:480px){
+    html{
+        font-size:20%;
+    }
+ 
+  }
+  @media(max-width:481px){
+    html{
+        font-size:20%;
+    }
+ 
+  }
+  @media(max-width:1024px){
+    html{
+        font-size:20%;
+    }
+ 
+  }
+
   
 body{
     background-color: rgb(228, 220, 230);
